@@ -1,6 +1,9 @@
 .defaultPagebackground
-{
-	background: #717171;
-	background: orange;
+{  
 	border: 0px;
-}
+	background: url("../images/city-bg1.jpg");
+	background-repeat: no-repeat;
+	background-size :
+	
+	background-size: cover	;
+	
