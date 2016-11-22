@@ -2,8 +2,17 @@
 {  
 	border: 0px;
 	background: url("../images/city-bg1.jpg");
-	background-repeat: no-repeat;
-	background-size :
+	background-repeat: no-repeat;	
+	background-size: cover;
+}
 	
-	background-size: cover	;
-	
+.defaultPagebackground .loginPanel
+{
+	background: #db0011 !important;
+}
+
+.defaultPagebackground .brandLogo
+{
+	width:80px;
+	height:20px;
+}

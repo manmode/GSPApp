@@ -5,14 +5,36 @@
 <title>This is homepage before pull</title>
 
 <link href="css/master.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="lib/bootstrap.css" />
+
 
 </head>
-<body class="default defaultPagebackground">
+<body ng-app="GSPMoveMoney" class="default defaultPagebackground row">
 
-<div>
 
-</div>
+ <header>
+            <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                	
+                    <a class="navbar-brand" href="/"><img class="brandLogo" width="70px"src="images/hsbc-logo-1.png"></a>
+                </div>
 
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="#login"><i class="fa fa-home"></i>Login</a></li>
+                    <li><a href="#dashboard"><i class="fa fa-shield"></i>Dashboard</a></li>
+                    <li><a href="#payeemanagement"><i class="fa fa-comment"></i>MB</a></li>
+                </ul>
+            </div>
+            </nav>
+</header>
+
+<div ng-view></div>
+
+<!-- load angular libraries-->
+<script src="lib/angular.js"></script>
+<script src="lib/angular-route.js"></script>
+<script src="js/app.js"></script>
 
 </body>
 </html>
