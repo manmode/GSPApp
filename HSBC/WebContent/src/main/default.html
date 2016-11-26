@@ -9,7 +9,7 @@
 
 
 </head>
-<body ng-app="GSPMoveMoney" class="default defaultPagebackground row">
+<body ng-app="GSPMoveMoney" class="default defaultPagebackground">
 
 
  <header>
@@ -28,13 +28,29 @@
             </div>
             </nav>
 </header>
-
-<div ng-view></div>
+ <section class="">
+ 	<section class="sideNavigationMenu col-sm-2"> 
+ 		<div class="btn-group-vertical">
+			  <button type="button" class="btn btn-default">Pay or Transfer</button>
+			  <button type="button" class="btn btn-default">FutureDated Payment</button>
+			  <button type="button" class="btn btn-default">My Payees</button>
+			</div> 
+ 	</section>
+ 	<section class="mainMenu col-sm-offset-1 col-sm-8" ng-view>
+ 		
+ 	</section>
+ </section>
+    <footer class="col-sm-12">
+        <hr />
+        Copyright (C) 2013. All rights reserved.
+    </footer>
 
 <!-- load angular libraries-->
 <script src="lib/angular.js"></script>
 <script src="lib/angular-route.js"></script>
 <script src="js/app.js"></script>
-
+<script type="text/javascript" src="js/dashboardPage_Ctrl.js"></script>
 </body>
 </html>
+
+

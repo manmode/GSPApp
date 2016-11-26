@@ -1,9 +1,10 @@
 .defaultPagebackground
 {  
 	border: 0px;
-	background: url("../images/city-bg1.jpg");
+	background: url("../images/city-bg1.jpg"); 
 	background-repeat: no-repeat;	
 	background-size: cover;
+	background-attachment: fixed;
 }
 	
 .defaultPagebackground .loginPanel
@@ -15,4 +16,65 @@
 {
 	width:80px;
 	height:20px;
+}
+.default .mmPanel
+{
+	border-radius: 8px !important;
+}
+
+.default .sideNavigationMenu
+{
+	border :1px solid black;
+	margin-left: 22px;
+}
+.default .sideNavigationMenu .btn-group-vertical
+{
+	width:100% !important;
+}
+.default .sideNavigationMenu.col-sm-2
+{
+	padding:0px !important;
+}
+
+.default .mainMenu
+{
+	/* border : 1px solid black; */
+}
+footer
+{
+	text-align:center;
+}
+
+.default .gspPanel
+{
+	float:left;
+	box-shadow: 4px 4px 15px 1px grey;
+	margin:12px;
+	padding:0px !important;
+}
+.default .gspPanel .panel
+{
+	margin:0px !important;
+	border:none;
+}
+
+.default .fromAccountInput
+{
+	float:left;
+	width:auto !important;
+}
+.default .gspPanel .panel-HSBC .panel-heading
+{
+	background-color: #db0011 !important;
+	color:white;
+	font-family: "Cambria", Times, serif;
+}
+
+.default .gspPanel .panel-HSBC .form-group .control-label
+{
+	text-align: left !important;
+}
+.default .gspDropdown .option .item
+{
+	background-color: red;
 }

@@ -32,12 +32,6 @@ gspApp.controller("loginPageController", function($scope)
 	$scope.userName="roshan";
 	$scope.pwd="manmode"
 });
-
-gspApp.controller("dashboardController",function($scope)
-{
-	$scope.msg="This is dashboard page......message from controller";
-});
-
 gspApp.controller("mbController",function($scope)
 {
 	$scope.msg="This is MB page......message from controller";
