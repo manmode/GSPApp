@@ -1,5 +1,5 @@
 var gspApp=angular.module('GSPMoveMoney',['ngRoute']);
-
+/*asd*/
 gspApp.config(['$routeProvider',
 	
 	function($routeProvider)
